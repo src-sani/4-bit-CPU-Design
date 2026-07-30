@@ -56,6 +56,36 @@
     <a name="circuit" val="main"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
+    <comp lib="0" loc="(1030,720)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="south"/>
+      <a name="label" val="CorB"/>
+      <a name="type" val="output"/>
+    </comp>
+    <comp lib="0" loc="(1070,720)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="south"/>
+      <a name="label" val="F3"/>
+      <a name="type" val="output"/>
+    </comp>
+    <comp lib="0" loc="(1110,720)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="south"/>
+      <a name="label" val="F2"/>
+      <a name="type" val="output"/>
+    </comp>
+    <comp lib="0" loc="(1150,720)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="south"/>
+      <a name="label" val="F1"/>
+      <a name="type" val="output"/>
+    </comp>
+    <comp lib="0" loc="(1190,720)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="south"/>
+      <a name="label" val="F0"/>
+      <a name="type" val="output"/>
+    </comp>
     <comp lib="0" loc="(1290,710)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="north"/>
@@ -258,31 +288,6 @@
     </comp>
     <comp lib="1" loc="(980,1370)" name="NOT Gate">
       <a name="facing" val="north"/>
-    </comp>
-    <comp lib="5" loc="(1030,720)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="label" val="CorB"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp lib="5" loc="(1070,720)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="label" val="F3"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp lib="5" loc="(1110,720)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="label" val="F2"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp lib="5" loc="(1150,720)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="label" val="F1"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp lib="5" loc="(1190,720)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="label" val="F0"/>
-      <a name="labelloc" val="north"/>
     </comp>
     <wire from="(1000,320)" to="(1000,340)"/>
     <wire from="(1000,420)" to="(1000,440)"/>
