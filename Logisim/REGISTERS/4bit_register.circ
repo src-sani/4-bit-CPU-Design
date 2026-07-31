@@ -92,7 +92,7 @@
     </comp>
     <comp lib="0" loc="(690,390)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="OP"/>
+      <a name="label" val="OP_EN"/>
     </comp>
     <comp lib="0" loc="(720,270)" name="Pin">
       <a name="appearance" val="NewPins"/>
@@ -164,23 +164,23 @@
     <wire from="(550,340)" to="(550,490)"/>
     <wire from="(550,340)" to="(680,340)"/>
     <wire from="(550,490)" to="(560,490)"/>
+    <wire from="(560,350)" to="(560,430)"/>
+    <wire from="(560,350)" to="(720,350)"/>
+    <wire from="(560,430)" to="(690,430)"/>
     <wire from="(560,490)" to="(560,550)"/>
-    <wire from="(570,350)" to="(570,430)"/>
-    <wire from="(570,350)" to="(720,350)"/>
-    <wire from="(570,430)" to="(690,430)"/>
+    <wire from="(570,360)" to="(570,420)"/>
+    <wire from="(570,360)" to="(760,360)"/>
+    <wire from="(570,420)" to="(820,420)"/>
     <wire from="(570,480)" to="(570,550)"/>
     <wire from="(570,480)" to="(590,480)"/>
     <wire from="(570,550)" to="(700,550)"/>
+    <wire from="(580,370)" to="(580,410)"/>
+    <wire from="(580,370)" to="(800,370)"/>
+    <wire from="(580,410)" to="(960,410)"/>
     <wire from="(580,460)" to="(580,500)"/>
     <wire from="(580,500)" to="(590,500)"/>
-    <wire from="(590,360)" to="(590,420)"/>
-    <wire from="(590,360)" to="(760,360)"/>
-    <wire from="(590,420)" to="(820,420)"/>
     <wire from="(600,510)" to="(600,570)"/>
     <wire from="(600,570)" to="(740,570)"/>
-    <wire from="(610,370)" to="(610,410)"/>
-    <wire from="(610,370)" to="(800,370)"/>
-    <wire from="(610,410)" to="(960,410)"/>
     <wire from="(620,490)" to="(630,490)"/>
     <wire from="(630,530)" to="(630,600)"/>
     <wire from="(630,600)" to="(760,600)"/>
