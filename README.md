@@ -27,7 +27,7 @@ Implemented:
 ## Development Roadmap
 
 - [x] Version 0.1 - 4-bit ALU
-- [ ] Version 0.2 - Registers
+- [x] Version 0.2 - Registers
 - [ ] Version 0.3 - Program Counter
 - [ ] Version 0.4 - Instruction Register
 - [ ] Version 0.5 - Control Unit
