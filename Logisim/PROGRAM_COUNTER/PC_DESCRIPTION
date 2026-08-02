@@ -1,0 +1,24 @@
+4-bit Program Counter Version 0.1
+
+Overview
+Description of the Program Counter and its purpose.
+
+Inputs
+- Clock
+- PC Load / Select
+- Jump Address[3:0]
+
+Outputs
+- PC[3:0]
+
+Operations Supported
+- Increment PC by 1
+- Load Jump Address
+
+Architecture
+- 4-bit Register
+- Incrementer
+- Selection MUX
+
+Tool Used
+- Logisim Evolution
