@@ -83,6 +83,12 @@
       <a name="incoming" val="4"/>
       <a name="spacing" val="8"/>
     </comp>
+    <comp lib="0" loc="(420,360)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="type" val="output"/>
+      <a name="width" val="4"/>
+    </comp>
     <comp lib="0" loc="(450,390)" name="Splitter">
       <a name="appear" val="center"/>
       <a name="facing" val="south"/>
@@ -147,6 +153,8 @@
     <wire from="(410,430)" to="(440,430)"/>
     <wire from="(410,440)" to="(410,520)"/>
     <wire from="(410,440)" to="(420,440)"/>
+    <wire from="(420,360)" to="(420,390)"/>
+    <wire from="(420,390)" to="(450,390)"/>
     <wire from="(420,460)" to="(440,460)"/>
     <wire from="(430,470)" to="(540,470)"/>
     <wire from="(440,430)" to="(440,460)"/>
