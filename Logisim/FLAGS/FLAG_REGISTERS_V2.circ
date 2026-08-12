@@ -56,6 +56,14 @@
     <a name="circuit" val="main"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
+    <comp lib="0" loc="(250,240)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(280,230)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
     <comp lib="0" loc="(280,350)" name="Clock">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="CLK"/>
@@ -64,7 +72,7 @@
       <a name="appearance" val="NewPins"/>
       <a name="label" val="FLAG_EN"/>
     </comp>
-    <comp lib="0" loc="(290,240)" name="Pin">
+    <comp lib="0" loc="(310,240)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="south"/>
     </comp>
@@ -104,6 +112,9 @@
     <comp lib="1" loc="(460,320)" name="NOT Gate">
       <a name="size" val="20"/>
     </comp>
+    <comp lib="2" loc="(290,300)" name="Multiplexer">
+      <a name="selloc" val="tr"/>
+    </comp>
     <comp lib="2" loc="(340,310)" name="Multiplexer"/>
     <comp lib="2" loc="(490,310)" name="Multiplexer"/>
     <comp lib="4" loc="(350,300)" name="D Flip-Flop">
@@ -112,31 +123,41 @@
     <comp lib="4" loc="(500,300)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="8" loc="(287,196)" name="Text">
+    <comp lib="8" loc="(240,187)" name="Text">
       <a name="text" val="CARRY"/>
+    </comp>
+    <comp lib="8" loc="(311,193)" name="Text">
+      <a name="text" val="a or l"/>
     </comp>
     <comp lib="8" loc="(355,420)" name="Text">
       <a name="text" val="CARRY FLAG"/>
     </comp>
-    <comp lib="8" loc="(407,480)" name="Text">
+    <comp lib="8" loc="(405,480)" name="Text">
       <a name="text" val="CARRY_FLAG_OP"/>
     </comp>
-    <comp lib="8" loc="(418,196)" name="Text">
+    <comp lib="8" loc="(415,195)" name="Text">
       <a name="text" val="ALU RESULT"/>
     </comp>
     <comp lib="8" loc="(510,420)" name="Text">
       <a name="text" val="ZERO FLAG"/>
     </comp>
-    <comp lib="8" loc="(561,481)" name="Text">
+    <comp lib="8" loc="(560,480)" name="Text">
       <a name="text" val="ZERO_FLAG_OP"/>
     </comp>
+    <wire from="(250,240)" to="(250,310)"/>
+    <wire from="(250,310)" to="(260,310)"/>
+    <wire from="(260,250)" to="(260,290)"/>
+    <wire from="(260,250)" to="(280,250)"/>
+    <wire from="(270,280)" to="(310,280)"/>
+    <wire from="(280,230)" to="(280,250)"/>
     <wire from="(280,350)" to="(330,350)"/>
     <wire from="(280,390)" to="(320,390)"/>
-    <wire from="(290,240)" to="(290,320)"/>
+    <wire from="(290,300)" to="(290,320)"/>
     <wire from="(290,320)" to="(310,320)"/>
     <wire from="(300,300)" to="(300,400)"/>
     <wire from="(300,300)" to="(310,300)"/>
     <wire from="(300,400)" to="(410,400)"/>
+    <wire from="(310,240)" to="(310,280)"/>
     <wire from="(320,330)" to="(320,390)"/>
     <wire from="(320,390)" to="(470,390)"/>
     <wire from="(330,350)" to="(330,370)"/>
