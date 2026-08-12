@@ -65,6 +65,10 @@
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
     </comp>
+    <comp lib="0" loc="(300,390)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="0" loc="(310,550)" name="Splitter">
       <a name="appear" val="center"/>
       <a name="facing" val="north"/>
@@ -99,7 +103,9 @@
     <comp lib="0" loc="(500,370)" name="Constant">
       <a name="width" val="4"/>
     </comp>
-    <comp lib="2" loc="(230,450)" name="Multiplexer"/>
+    <comp lib="2" loc="(230,450)" name="Multiplexer">
+      <a name="enable" val="true"/>
+    </comp>
     <comp lib="2" loc="(340,450)" name="Multiplexer"/>
     <comp lib="2" loc="(450,450)" name="Multiplexer"/>
     <comp lib="2" loc="(560,450)" name="Multiplexer"/>
@@ -118,6 +124,9 @@
     <comp lib="4" loc="(570,440)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
+    <comp lib="8" loc="(303,334)" name="Text">
+      <a name="text" val="pc_write"/>
+    </comp>
     <wire from="(170,360)" to="(170,510)"/>
     <wire from="(170,360)" to="(240,360)"/>
     <wire from="(170,510)" to="(230,510)"/>
@@ -127,14 +136,22 @@
     <wire from="(190,440)" to="(190,530)"/>
     <wire from="(190,440)" to="(200,440)"/>
     <wire from="(200,460)" to="(220,460)"/>
-    <wire from="(210,470)" to="(320,470)"/>
+    <wire from="(210,470)" to="(210,480)"/>
+    <wire from="(210,480)" to="(230,480)"/>
     <wire from="(220,430)" to="(220,460)"/>
     <wire from="(220,430)" to="(250,430)"/>
+    <wire from="(220,470)" to="(220,550)"/>
+    <wire from="(220,550)" to="(270,550)"/>
+    <wire from="(230,470)" to="(230,480)"/>
+    <wire from="(230,470)" to="(320,470)"/>
     <wire from="(230,490)" to="(230,510)"/>
     <wire from="(230,510)" to="(340,510)"/>
     <wire from="(250,520)" to="(250,530)"/>
     <wire from="(250,520)" to="(300,520)"/>
+    <wire from="(270,430)" to="(270,550)"/>
+    <wire from="(270,430)" to="(300,430)"/>
     <wire from="(290,410)" to="(290,450)"/>
+    <wire from="(300,390)" to="(300,430)"/>
     <wire from="(300,440)" to="(300,520)"/>
     <wire from="(300,440)" to="(310,440)"/>
     <wire from="(310,460)" to="(330,460)"/>
